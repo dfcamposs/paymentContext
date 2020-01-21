@@ -3,14 +3,15 @@ using PaymentContext.Domain.Entities;
 
 namespace PaymentContext.Tests
 {
-  [TestClass]
-  public class StudentTests
-  {
-    [TestMethod]
-    public void TestMethod1()
+    [TestClass]
+    public class StudentTests
     {
-      var student = new Student("David", "Campos", "156561214545", "teste@gmail.com");
-
+        [TestMethod]
+        public void AdicinarAssinatura()
+        {
+            var subscription = new Subscription(null);
+            var student = new Student("David", "Campos", "156561214545", "teste@gmail.com");
+            student.AddSubscription(subscription);
+        }
     }
-  }
 }

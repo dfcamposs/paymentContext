@@ -1,9 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/dfcamposs/.dotnet/store/|arch|/|tfm|",
-      "/Users/dfcamposs/.nuget/packages",
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Users\\david.DCTECNO\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\david.DCTECNO\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }

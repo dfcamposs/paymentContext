@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dfcamposs/www/dotnet/paymentContext/PaymentContext.Shared/PaymentContext.Shared.csproj": {}
+    "C:\\Users\\david.DCTECNO\\Desktop\\Projects\\pessoal\\dotnet\\paymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {}
   },
   "projects": {
-    "/Users/dfcamposs/www/dotnet/paymentContext/PaymentContext.Shared/PaymentContext.Shared.csproj": {
+    "C:\\Users\\david.DCTECNO\\Desktop\\Projects\\pessoal\\dotnet\\paymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dfcamposs/www/dotnet/paymentContext/PaymentContext.Shared/PaymentContext.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\david.DCTECNO\\Desktop\\Projects\\pessoal\\dotnet\\paymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "projectName": "PaymentContext.Shared",
-        "projectPath": "/Users/dfcamposs/www/dotnet/paymentContext/PaymentContext.Shared/PaymentContext.Shared.csproj",
-        "packagesPath": "/Users/dfcamposs/.nuget/packages/",
-        "outputPath": "/Users/dfcamposs/www/dotnet/paymentContext/PaymentContext.Shared/obj/",
+        "projectPath": "C:\\Users\\david.DCTECNO\\Desktop\\Projects\\pessoal\\dotnet\\paymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "packagesPath": "C:\\Users\\david.DCTECNO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david.DCTECNO\\Desktop\\Projects\\pessoal\\dotnet\\paymentContext\\PaymentContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/dfcamposs/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\david.DCTECNO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,7 +58,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
