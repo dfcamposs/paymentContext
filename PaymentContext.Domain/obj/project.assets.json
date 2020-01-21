@@ -195,37 +195,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\david.DCTECNO\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/dfcamposs/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\david.DCTECNO\\Desktop\\Projects\\pessoal\\dotnet\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+      "projectUniqueName": "/Users/dfcamposs/www/dotnet/paymentContext/PaymentContext.Domain/PaymentContext.Domain.csproj",
       "projectName": "PaymentContext.Domain",
-      "projectPath": "c:\\Users\\david.DCTECNO\\Desktop\\Projects\\pessoal\\dotnet\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
-      "packagesPath": "C:\\Users\\david.DCTECNO\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\david.DCTECNO\\Desktop\\Projects\\pessoal\\dotnet\\PaymentContext\\PaymentContext.Domain\\obj\\",
+      "projectPath": "/Users/dfcamposs/www/dotnet/paymentContext/PaymentContext.Domain/PaymentContext.Domain.csproj",
+      "packagesPath": "/Users/dfcamposs/.nuget/packages/",
+      "outputPath": "/Users/dfcamposs/www/dotnet/paymentContext/PaymentContext.Domain/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\david.DCTECNO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/dfcamposs/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\Users\\david.DCTECNO\\Desktop\\Projects\\pessoal\\dotnet\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-              "projectPath": "c:\\Users\\david.DCTECNO\\Desktop\\Projects\\pessoal\\dotnet\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+            "/Users/dfcamposs/www/dotnet/paymentContext/PaymentContext.Shared/PaymentContext.Shared.csproj": {
+              "projectPath": "/Users/dfcamposs/www/dotnet/paymentContext/PaymentContext.Shared/PaymentContext.Shared.csproj"
             }
           }
         }
@@ -256,7 +254,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
       }
     }
   }
