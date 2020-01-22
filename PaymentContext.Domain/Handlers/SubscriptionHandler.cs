@@ -11,7 +11,7 @@ using System;
 
 namespace PaymentContext.Domain.Handlers
 {
-    class SubscriptionHandler : Notifiable, IHandler<CreateBoletoSubscriptionCommand>
+    public class SubscriptionHandler : Notifiable, IHandler<CreateBoletoSubscriptionCommand>
     {
         private readonly IStudentRepository _repository;
         private readonly IEmailService _emailService;
@@ -22,7 +22,7 @@ namespace PaymentContext.Domain.Handlers
             _emailService = emailService;
         }
 
-        public ICommandResult Handler(CreateBoletoSubscriptionCommand command)
+        public ICommandResult Handle(CreateBoletoSubscriptionCommand command)
         {
             //Fail Fast Validations
             command.Validate();
@@ -68,6 +68,10 @@ namespace PaymentContext.Domain.Handlers
 
             //Agrupar as Validações
             AddNotifications(name, document, email, address, student, subscription, payment);
+
+            //Checar as notificações
+            if (Invalid)
+                return new CommandResult(false, "Não foi possível realizar sua assinatura");
 
             //Salvar as Informações
             _repository.CreateSubscription(student);
