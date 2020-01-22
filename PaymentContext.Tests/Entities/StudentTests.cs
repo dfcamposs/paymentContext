@@ -46,7 +46,7 @@ namespace PaymentContext.Tests
             Assert.IsTrue(_student.Invalid);
         }
         [TestMethod]
-        public void ShouldReturnErrorWhenHadNoActiveSubscription()
+        public void ShouldReturnErrorWhenAddSubscription()
         {
             var payment = new PayPalPayment("12345678", DateTime.Now, DateTime.Now.AddDays(5), 10, 10, "WAYNE CORP", _document, _address, _email);
 
